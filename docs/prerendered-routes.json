@@ -1,0 +1,9 @@
+{
+  "routes": {
+    "/portfolio_app": {},
+    "/portfolio_app/about": {},
+    "/portfolio_app/contact": {},
+    "/portfolio_app/home": {},
+    "/portfolio_app/projects": {}
+  }
+}

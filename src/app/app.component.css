@@ -1,0 +1,112 @@
+
+    /* Reset and base styling */
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+.anchor{
+    text-decoration: none;
+}
+    body, html {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f9f9f9;
+    }
+
+    .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    }
+
+    /* Navbar */
+    .navbar {
+    background-color: #101820;
+    padding: 1rem 0;
+    color: #fff;
+    }
+
+    .navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+
+    .logo .anchor{
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #00dfc4;
+    }
+
+    nav {
+    display: flex;
+    gap: 2rem;
+    }
+
+    nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+    }
+
+    nav a:hover {
+    color: #00dfc4;
+    }
+
+    .menu-icon {
+    display: none;
+    font-size: 2rem;
+    cursor: pointer;
+    }
+
+    /* Hero */
+    .hero {
+    padding: 5rem 0;
+    text-align: center;
+    background-color: #fff;
+    }
+
+    .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    }
+
+    .highlight {
+    color: #00dfc4;
+    }
+
+    .hero p {
+    font-size: 1.2rem;
+    color: #555;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+    nav {
+        position: absolute;
+        top: 70px;
+        right: 0;
+        background-color: #101820;
+        flex-direction: column;
+        width: 100%;
+        display: none;
+    }
+
+    nav.open {
+        display: flex;
+    }
+
+    .menu-icon {
+        display: block;
+        color: #fff;
+    }
+
+    .hero h1 {
+        font-size: 2.2rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+    }
