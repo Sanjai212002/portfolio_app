@@ -12,6 +12,10 @@
     font-family: 'Poppins', sans-serif;
     background-color: #f9f9f9;
     }
+    .content-container{
+        background: linear-gradient(to right, #e0f7fa, #ffffff);
+    }
+    
 
     .container {
     width: 90%;
