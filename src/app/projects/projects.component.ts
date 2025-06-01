@@ -13,7 +13,7 @@ projectList = [
       title: 'Portfolio Website',
       description: 'Personal portfolio using Angular and CSS.',
       image: 'portfolio-logo.png',
-      link: 'https://github.com/Sanjai212002/sanjai-port'
+      link: 'https://github.com/Sanjai212002/portfolio_app'
     },
     {
       title: 'Food Ordering App',
