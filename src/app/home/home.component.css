@@ -11,6 +11,14 @@
     align-items: center;
     justify-content: center;
 }
+.hovered:hover{
+    cursor: pointer;
+     text-shadow:
+    0 0 5px gray,
+    0 0 5px grey,
+    0 0 5px white,
+    0 0 5px white;
+}
 
     .hero h1 {
     font-size: 3rem;

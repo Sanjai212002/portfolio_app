@@ -14,13 +14,13 @@ export class SkillsComponent {
     'RxJS',
     'HTML & CSS',
     'JavaScript',
-    'NgRx / State Management',
+    'NgRx',
     'REST APIs',
     'Responsive Design',
     'Git & GitHub',
-    'Unit Testing (Jasmine/Karma)',
+    'Json',
     'Angular Material',
-    'Agile / Scrum'
+    'Bootstrap'
   ];
 
 }
