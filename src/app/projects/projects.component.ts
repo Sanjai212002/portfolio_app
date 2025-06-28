@@ -17,7 +17,7 @@ projectList = [
     },
     {
       title: 'CRUD Application',
-      description: 'Responsive Angular app for food ordering.',
+      description: 'This application users to perform four operations',
       image: 'crud_logo.png',
       link: 'https://github.com/Sanjai212002/crud-app.git'
     }
