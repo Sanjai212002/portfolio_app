@@ -19,7 +19,7 @@ projectList = [
       title: 'Food Ordering App',
       description: 'Responsive Angular app for food ordering.',
       image: 'food-order-logo-.avif',
-      link: 'https://github.com/Sanjai212002/sanjai-port'
+      link: 'https://github.com/Sanjai212002/crud-app.git'
     }
   ];
 }
